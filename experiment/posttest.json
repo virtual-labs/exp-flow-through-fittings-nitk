@@ -2,38 +2,79 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Equivalent length of a wide open gate valve is ______________  the equivalent length of a half open gate valve of the same nominal size?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "greater than",
+        "b": "lesser than",
+        "c": "same as"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": ""
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": ""
+    },
+    {
+      "question": "A globe valve is most suitable for applications in which?",
+      "answers": {
+        "a": "the valve is required to be either fully open or fully closed",
+        "b": "flow control is required",
+        "c": "One-way flow is required",
+        "d": "the fluid contains dispersed particles"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "Frictional loss in fittings is ______________ that in straight pipes.",
+      "answers": {
+        "a": "greater than",
+        "b": "smaller than",
+        "c": "equal to"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
+    },
+    {
+      "question": "The frictional loss from sudden  expansion is proportional to the velocity head in the ____________ conduit.",
+      "answers": {
+        "a": "larger",
+        "b": "smaller"
+      },
+      "explanations": {
+        "a": "",
+        "b": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": ""
+    },
+    {
+      "question": "Globe valve offers _____________ pressure drop than the gate valve",
+      "answers": {
+        "a": "higher",
+        "b": "lower",
+        "c": "equal"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": ""
     }
   ]
 }
