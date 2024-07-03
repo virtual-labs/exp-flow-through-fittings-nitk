@@ -7,7 +7,7 @@ var a, p, lastp, n, b, q, flag = 0,
 // let temp=0;
 
 document.addEventListener('DOMContentLoaded', () => {
-    // document.getElementById("nextButton").style.visibility = "hidden";
+  
     setTimeout(() => {
         var start = document.getElementById("start");
         start.innerText = "FLOW THROUGH FITTINGS";
@@ -85,7 +85,7 @@ function navNext() {
 
     simsubscreennum += 1;
     document.getElementById('canvas' + (simsubscreennum)).style.visibility = "visible";
-    // document.getElementById('nextButton').style.visibility = "hidden";
+
     magic();
 }
 //-----------------------------------------blink arrow on the next step---------------------------------------------
@@ -122,14 +122,14 @@ function magic() {
             // console.log("One has chosen!");
             document.getElementById("experimentSetup").style.visibility = "hidden";
             document.getElementById("labelImage").style.visibility = "visible";
-            // document.getElementById('nextButton').style.visibility = "hidden";
+        
             document.getElementById("configExp").style.visibility = "hidden";
         } else {
             // console.log("2 has chosen");
             // document.getElementById("step2Heading").innerText = "Choose"
             document.getElementById("configExp").style.visibility = "visible";
             document.getElementById("labelImage").style.visibility = "hidden";
-            // document.getElementById('nextButton').style.visibility = "hidden";
+   
         }
     } else if (simsubscreennum == 3) {
         document.getElementById("observeTable").style.visibility = "hidden";
@@ -139,7 +139,7 @@ function magic() {
         if (chosenActivity == 1) {
             document.getElementById("labelImage").style.visibility = "hidden";
             document.getElementById("experimentSetup").style.visibility = "visible";
-            // document.getElementById('nextButton').style.visibility = "hidden";
+        
             document.getElementById("evaluatePart").style.visibility = "hidden";
             document.getElementById('evalBtn').style.visibility = "hidden";
 
@@ -148,7 +148,7 @@ function magic() {
             // console.log("2 has chosen");
             // document.getElementById("step3Heading").innerText = "Evaluation!"
             document.getElementById("configExp").style.visibility = "hidden";
-            // document.getElementById('nextButton').style.visibility = "hidden";
+            
             
    
             document.getElementById("evaluatePart").style.visibility = "visible";
@@ -166,7 +166,7 @@ function magic() {
 
             document.getElementById("infoAboutWhatToDo").innerText = "Click on Green button to start the motor.";
             document.getElementById("infoAboutWhatToDo").style.color = "black";
-            // document.getElementById('nextButton').style.visibility = "hidden";
+           
 
             // document.getElementById("step4Heading").innerText = "Experiment";
             document.getElementById("ratoReadings").innerText = "0.00";
@@ -198,14 +198,14 @@ function magic() {
             document.getElementById("rotatePinFifth").style.visibility = "hidden";
             document.getElementById("rotatePinFinal").style.visibility = "hidden";
             document.getElementById("rotatePin").style.visibility = "visible";
-            // document.getElementById("overflow").style.visibility = "hidden";
+
 
             document.getElementById("obserButton").onclick = "";
             document.getElementById("goBackButton").onclick = "";
             document.getElementById("experiButton").onclick = "";
 
             document.getElementById("experimentSetup").style.visibility = "hidden";
-            // document.getElementById("nextButton").style.visibility = "hidden";
+    
 
             document.getElementById("experimentID").style.visibility = "visible";
             document.getElementById("obserButton").style.visibility = "visible";
@@ -266,7 +266,7 @@ function magic() {
             document.getElementById("observeTable").style.visibility = "hidden";
             document.getElementById("experimentSetup").style.visibility = "hidden";
             document.getElementById("labelImage").style.visibility = "hidden";
-            // document.getElementById('nextButton').style.visibility = "hidden";
+
         }
     }
 }
@@ -560,7 +560,7 @@ function gotoExp() {
 
         // console.log("clicked for setup");
         document.getElementById("greenColor").style.visibility = "hidden";
-        // document.getElementById("nextButton").style.visibility = "hidden";
+       
         // document.getElementById("nextButton").style.zIndex = -1;
         document.getElementById("displayExpValues").style.visibility = "hidden";
         //erinnn
@@ -1316,9 +1316,8 @@ function goBacktoStep2() {
     document.getElementById("rightCm").innerText = h2New;
     document.getElementById("ratoReadings").innerText = (valOfRatoNew);
 
-    // document.getElementById("nextButton").style.visibility = "hidden";
-    // document.getElementById("nextButton").style.zIndex = -1;
-    // document.getElementById('nextButton').style.visibility = "hidden";
+   
+   
 
     document.getElementById("waterFlow").style.visibility = "hidden";
     document.getElementById("waterSteady").style.visibility = "hidden";
